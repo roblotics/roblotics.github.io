@@ -12,6 +12,10 @@ body,h1,h2,h3,h4,h5,h6 {
   background-color:#0da8d1;
 }
 
+.whiteback{
+    background-color: white;
+}
+
 .whitet{
     color: white;
 }

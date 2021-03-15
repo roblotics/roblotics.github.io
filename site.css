@@ -1,0 +1,112 @@
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+}
+.w3-bar,h1,button {
+  font-family: "Montserrat", sans-serif;
+}
+.fa-anchor,.fa-coffee {
+  font-size:200px;
+}
+
+.blues{
+  background-color:#0da8d1;
+}
+
+.whiteback{
+    background-color: white;
+}
+
+.whitet{
+    color: white;
+}
+
+a.hover{
+  background-color: #28c5cf;
+}
+
+h1{
+  color: white;
+  font-weight: bold;
+}
+
+#lego{
+  background-image: url("../images/legos.jpg");
+  background-size: cover;
+
+}
+
+aside {
+  background: #1f8dd6; /* same color as selected state on site menu */
+  padding: 0.3em 1em;
+  border-radius: 3px;
+  color: #fff;
+  margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: black; /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+
+.w3-card-4{
+  margin: 20px;
+  align-self: center;
+}
+#name, #email {
+  display: block;
+  width: 50%;
+}
+.maxy{
+  width:70%;
+}
+.navlog{
+  width: auto;
+  height: 45px;
+  padding-top: 7px;
+  padding-left: 15px;
+}
+#prodis{
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+    font-size: 120%;
+}
+
+#mission{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+}
+
+#heading{
+    font-size: 150%;
+    color: white;
+}
+
+#heading1{
+    font-size: 200%;
+    color: white;
+}
+
+#headprod{
+    font-size: 200%;
+    color: black;
+}

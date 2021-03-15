@@ -12,6 +12,10 @@ body,h1,h2,h3,h4,h5,h6 {
   background-color:#0da8d1;
 }
 
+.whitet{
+    color: white;
+}
+
 a.hover{
   background-color: #28c5cf;
 }
@@ -72,4 +76,28 @@ textarea {
     padding-left: 120px;
     padding-right: 120px;
     text-align: center;
+    font-size: 120%;
+}
+
+#mission{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+}
+
+#heading{
+    font-size: 150%;
+    color: white;
+}
+
+#heading1{
+    font-size: 200%;
+    color: white;
+}
+
+#headprod{
+    font-size: 200%;
+    color: black;
 }

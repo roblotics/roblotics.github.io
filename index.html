@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Roblotics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/site.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/formsend.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-left-align w3-large blues">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large  w3-hover-white">Home</a>
+    <a href="#products" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Products</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large blues">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#products" class="w3-bar-item w3-button w3-padding-large">Products</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center blues" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Roblotics</h1>
+  <p class="w3-xlarge">Building Imagination Block by Block</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-center"><a href="#about">Our Mission</a></button>
+</header>
+
+<!-- Products-->
+<div class="w3-row-padding w3-padding-64 w3-container" id = "products">
+    <h3 class="w3-center">PRODUCTS</h3>
+    <p class="w3-center"><em>The Coding Robot</em></p>
+    <p>Roblotics is an educational toy designed to give young children a cheaper, and more tactile
+      introduction to coding logic and robotics. Through small, literal coding blocks, children can put together
+      strings of commands to instruct a small robot to perform basic tasks like move forward, spin, or even dance.
+      </p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-padding-large">
+        <ul class="w3-ul w3-card w3-hover-shadow">
+          <li class="blues w3-xlarge w3-padding-32 w3-center">Robo</li>
+          <li class="w3-padding-16"><b>Includes</b> Robot, Code Blocks, Scanner</li>
+          <li class="w3-padding-16"><b>Model</b> Beta v1.0 Currently in development</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-opacity">Still in development</h2>
+          </li>
+          <li class="w3-light-grey w3-padding-24 w3-center">
+            <button class="w3-button w3-grey w3-padding-large" onclick="">Buy Now</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+      <ul class="w3-ul w3-card w3-hover-shadow">
+        <li class="blues w3-xlarge w3-padding-32 w3-center">Extra Blocks</li>
+        <li class="w3-padding-16"><b>Includes</b> Code Blocks Set</li>
+        <li class="w3-padding-16"><b>Model</b> Works with Beta v1.0</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-opacity">Still in development</h2>
+        </li>
+        <li class="w3-light-grey w3-padding-24 w3-center">
+          <button class="w3-button w3-grey w3-padding-large" onclick="">Buy Now</button>
+        </li>
+      </ul>
+    </div>
+    </div>
+</div>
+
+<!-- About -->
+<div class="w3-row-padding blues" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-text-white w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><h3>About Robolotics<h3></span>
+      <p class = "w3-padding-16 w3-small">OUR MISSION</p>
+      <span class="w3-xlarge w3-border-dark-grey w3-padding-16">Meet the Team</span>
+    </div>
+    <div class="w3-center">
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4 w3-white w3-padding-16">
+          <img src="images/legos.jpg" alt="John" style="width:70%">
+          <div class="w3-container">
+            <h3>Jane Doe</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4 w3-white w3-padding-16">
+          <img src="images/legos.jpg" alt="John" style="width:70%">
+          <div class="w3-container">
+            <h3>Jane Doe</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4 w3-white w3-padding-16">
+          <img src="images/legos.jpg" alt="John" style="width:70%">
+          <div class="w3-container">
+            <h3>Jane Doe</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-center">
+      <div class="w3-third w3-margin-bottom w3-center">
+        <div class="w3-two-third w3-card-4 w3-white w3-padding-16">
+          <img src="images/legos.jpg" alt="John" style="width:70%">
+          <div class="w3-container">
+            <h3>Jane Doe</h3>
+            <p class="w3-opacity">CEO & Founder</p>
+            <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+        <div class="w3-third w3-margin-bottom w3-center">
+          <div class="w3-two-third w3-card-4 w3-white w3-padding-16">
+            <img src="images/legos.jpg" alt="John" style="width:70%">
+            <div class="w3-container">
+              <h3>Jane Doe</h3>
+              <p class="w3-opacity">CEO & Founder</p>
+              <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+              <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+<!-- Contact -->
+<div class="w3-row-padding w3-white w3-padding-64 w3-container" id="contact">
+  <div class="w3-third w3-margin-bottom w3-center">
+    <div class="w3-two-third w3-card-4 w3-white w3-padding-16">
+      <div class="w3-container blues">
+        <h3 class="w3-text-white">Please Reach Out</h3>
+        <img src="images/legos.jpg" alt="logo" style="width:50%">
+        <p class="w3-text-white">If you have any questions about how you can get invovled with Roblotics or questions about our products, please feel free to leave a comment in this form.</p>
+      </div>
+    </div>
+  </div>
+  <form class = "w3-half" id="my-form">
+    <h3 class = "w3-center"> Contact Us </h3>
+    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+      <div>
+        <label for="entry.158553452"> Name:</label>
+        <input class="w3-input w3-border" name="entry.158553452" type="text" placeholder="Jon Doe" required>
+      </div>
+      <div>
+        <label for="entry.1639086090"> Email:</label>
+        <input class="w3-input w3-border" name="entry.1639086090" type="text" placeholder="email@gmail.com" required>
+      </div>
+    </div>
+    <div>
+      <label for="entry.45020439"> Message:</label>
+      <textarea class="w3-input w3-border" name="entry.45020439" type="text" placeholder="Message" required> </textarea>
+    </div>
+    <input class="w3-button w3-black w3-right w3-section" type="submit" value = "Send">
+    </input>
+  </form>
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center blues">
+  <div class="w3-xlarge w3-padding-32">
+      <h3 class = "w3-left w3-text-white">Roblotics</h3>
+    <i class="fa fa-facebook-official w3-hover-opacity w3-right"></i>
+    <i class="fa fa-instagram w3-hover-opacity w3-right"></i>
+    <i class="fa fa-snapchat w3-hover-opacity w3-right"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity w3-right"></i>
+    <i class="fa fa-twitter w3-hover-opacity w3-right"></i>
+    <i class="fa fa-linkedin w3-hover-opacity w3-right"></i>
+ </div>
+</footer>
+<script>
+
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

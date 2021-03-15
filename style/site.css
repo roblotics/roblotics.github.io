@@ -75,7 +75,12 @@ textarea {
 .maxy{
   width:70%;
 }
-
+.navlog{
+  width: auto;
+  height: 45px;
+  padding-top: 7px;
+  padding-left: 15px;
+} 
 #prodis{
     padding-left: 120px;
     padding-right: 120px;

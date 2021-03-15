@@ -67,3 +67,9 @@ textarea {
 .maxy{
   width:70%;
 }
+
+#prodis{
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}

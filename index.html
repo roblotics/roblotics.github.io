@@ -173,72 +173,28 @@
       </div>
     </div>
   </div>
-  <form id="contact-form" method="post" action="scripts/contact.php" role="form">
+  <div class = "w3-half">
+    <form method="POST" action="https://formspree.io/f/meqpynqe">
+      <h3 class = "w3-center"> Contact Us </h3>
+      <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+      <label>
+      Your name:
+      <input class="w3-input w3-border" type="text" name="name">
+      </label>
+      <label>
+      Your email:
+      <input class="w3-input w3-border" type="email" name="_replyto">
+    </label>
+    <label>
+      Your message:
+      <textarea class="w3-input w3-border" name="message"></textarea>
+    </label>
 
-    <div class="messages"></div>
+    <!-- your other form fields go here -->
 
-    <div class="controls">
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_name">Firstname *</label>
-                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_lastname">Lastname *</label>
-                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_email">Email *</label>
-                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="form_need">Please specify your need *</label>
-                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
-                        <option value=""></option>
-                        <option value="Request quotation">Request quotation</option>
-                        <option value="Request order status">Request order status</option>
-                        <option value="Request copy of an invoice">Request copy of an invoice</option>
-                        <option value="Other">Other</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="form-group">
-                    <label for="form_message">Message *</label>
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                    <div class="help-block with-errors"></div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <input type="submit" class="btn btn-success btn-send" value="Send message">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-muted">
-                    <strong>*</strong> These fields are required. Contact form template by
-                    <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
-            </div>
-        </div>
-    </div>
-
-  </form>
+    <button type="submit">Send</button>
+    </form>
+  </div>
 </div>
 
 <!-- Footer -->
@@ -254,8 +210,6 @@
  </div>
 </footer>
 <script>
-
-
 function myFunction() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {

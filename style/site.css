@@ -80,7 +80,7 @@ textarea {
   height: 45px;
   padding-top: 7px;
   padding-left: 15px;
-} 
+}
 #prodis{
     padding-left: 120px;
     padding-right: 120px;
@@ -89,10 +89,19 @@ textarea {
 }
 
 #mission{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-    font-size: 120%;
+    font-size: 36px;
+    color: white;
+}
+
+#background{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
     color: white;
 }
 
@@ -102,8 +111,9 @@ textarea {
 }
 
 #heading1{
-    font-size: 200%;
+    font-size: 36px;
     color: white;
+    font-weight: bold;
 }
 
 #headprod{
